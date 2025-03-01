@@ -11,7 +11,7 @@ const Cart = () => {
     const [ stkQueryLoading, setStkQueryLoading ] = useState(false); //
     const [ errorMessage, setErrorMessage ] = useState("");
     const [ formData, setFormData ] = useState({
-        mpesa_phone: "0795924576",
+        mpesa_phone: "0721831058",
         name: "Kandy Hamisi",
         amount: 1
     });
@@ -112,7 +112,7 @@ const Cart = () => {
                     <td className='px-6 py-4'>
                         <div className='flex justify-center'>
                             <div className='relative h-[75px] w-[75px]'>
-                                <Image src="/kitchen.jpg" fill className='object-cover rounded-md shadow-lg' />
+                                <Image src="/kitchen.jpg" alt="" fill className='object-cover rounded-md shadow-lg' />
                             </div>
                         </div>
                     </td>
@@ -133,7 +133,7 @@ const Cart = () => {
                     <td className='px-6 py-4'>
                         <div className='flex justify-center'>
                             <div className='relative h-[75px] w-[75px]'>
-                                <Image src="/kitchen.jpg" fill className='object-cover rounded-md shadow-lg' />
+                                <Image src="/kitchen.jpg" alt="" fill className='object-cover rounded-md shadow-lg' />
                             </div>
                         </div>
                     </td>
