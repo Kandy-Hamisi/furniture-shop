@@ -55,8 +55,8 @@ const CartModal = () => {
             </div>
             <div className='mt-4 flex items-center justify-between'>
                 <Link href="/Cart" className='border border-safari-black p-2 rounded-md'>Cart</Link>
-                <Link href="/Checkout" className='border border-safari-black p-2 rounded-md'>Checkout</Link>
-                <Link href="/Compare" className='border border-safari-black p-2 rounded-md'>Compare</Link>
+                {/*<Link href="/Checkout" className='border border-safari-black p-2 rounded-md'>Checkout</Link>*/}
+                {/*<Link href="/Compare" className='border border-safari-black p-2 rounded-md'>Compare</Link>*/}
             </div>
         </div>
     </div>
